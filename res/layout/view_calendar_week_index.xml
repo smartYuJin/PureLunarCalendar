@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_calendar_cell.weekindex" >
+
+    <TextView
+        android:id="@+id/txtWeekIndex"
+        style="@style/style_calendar_weekindex_text"
+        android:text="@string/demo" />
+
+    <TextView
+        style="@style/style_calendar_weekindex_text"
+        android:text="@string/chinese_week" />
+
+</LinearLayout>

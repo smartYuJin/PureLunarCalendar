@@ -1,0 +1,181 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="style_calendar_titlebar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape_calendar_titlebar</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="style_calendar_title_gregorian_container">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="style_calendar_title_gregorian_text">
+        <item name="android:layout_width">164dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/color_calendar_title_gregorian</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+
+    <style name="style_calendar_title_detail_container">
+        <item name="android:layout_width">560dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="style_calendar_title_lunar_text">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|left</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_calendar_title_lunar</item>
+    </style>
+
+    <style name="style_calendar_title_addition_text">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/color_calendar_title_addition</item>
+    </style>
+
+    <style name="style_calendar_title_command_container">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom|right</item>
+    </style>
+
+    <style name="style_calendar_header_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/shape_calendar_header</item>
+    </style>
+
+    <style name="style_calendar_header_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#9fff</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="style_calendar_weekindex_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#9fff</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="style_calendar_cell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:onClick">onCellClick</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="style_calendar_cell.normal">
+        <item name="android:background">@drawable/shape_calendar_cell_normal</item>
+    </style>
+
+    <style name="style_calendar_cell.outrange">
+        <item name="android:background">@drawable/shape_calendar_cell_outrange</item>
+    </style>
+
+    <style name="style_calendar_cell.today">
+        <item name="android:background">@drawable/shape_calendar_cell_today</item>
+    </style>
+
+    <style name="style_calendar_cell.weekindex">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:background">@drawable/shape_calendar_cell_weekindex</item>
+    </style>
+
+    <style name="style_calendar_cell.weekend">
+        <item name="android:background">@drawable/shape_calendar_cell_weekend</item>
+    </style>
+
+    <style name="style_calendar_gregorian">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_calendar_gregorian.normal">
+        <item name="android:textColor">@color/color_calendar_normal_gregorian</item>
+    </style>
+
+    <style name="style_calendar_gregorian.outrange">
+        <item name="android:textColor">@color/color_calendar_outrange</item>
+    </style>
+
+    <style name="style_calendar_gregorian.today">
+        <item name="android:textColor">@color/color_calendar_today_gregorian</item>
+    </style>
+
+    <style name="style_calendar_gregorian.weekend">
+        <item name="android:textColor">@color/color_calendar_weekend</item>
+    </style>
+
+    <style name="style_calendar_lunar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="style_calendar_lunar.normal">
+        <item name="android:textColor">@color/color_calendar_normal_lunar</item>
+    </style>
+
+    <style name="style_calendar_lunar.outrange">
+        <item name="android:textColor">@color/color_calendar_outrange</item>
+    </style>
+
+    <style name="style_calendar_lunar.today">
+        <item name="android:textColor">@color/color_calendar_today_lunar</item>
+    </style>
+
+    <style name="style_calendar_lunar.weekend">
+        <item name="android:textColor">@color/color_calendar_weekend</item>
+    </style>
+
+</resources>

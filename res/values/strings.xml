@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pure Lunar Calendar</string>
+    <string name="menu_goto">跳转到&#8230;</string>
+    <string name="menu_about">关于</string>
+    <string name="desc_previous_month">previous month</string>
+    <string name="desc_next_month">next month</string>
+    <string name="desc_today">return to today</string>
+    <string name="desc_popup_menu">Popup menu</string>
+    <string name="desc_cell_hint">cell hint</string>
+    <string name="chinese_week">周</string>
+    <string name="demo">demo</string>
+    <string name="calendar_sunday">星期日</string>
+    <string name="calendar_monday">星期一</string>
+    <string name="calendar_tuesday">星期二</string>
+    <string name="calendar_wednsday">星期三</string>
+    <string name="calendar_thursday">星期四</string>
+    <string name="calendar_firday">星期五</string>
+    <string name="calendar_saturday">星期六</string>
+
+    <string-array name="gregorianFestivals">
+        <item>元旦</item>
+        <item>情人节</item>
+        <item>妇女节</item>
+        <item>植树节</item>
+        <item>消费者权益日</item>
+        <item>愚人节</item>
+        <item>国际劳动节</item>
+        <item>国际儿童节</item>
+        <item>教师节</item>
+        <item>国庆节</item>
+        <item>万圣节</item>
+        <item>平安夜</item>
+        <item>圣诞节</item>
+    </string-array>
+    <string-array name="lunarFestivals">
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>七夕</item>
+        <item>中元节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>祭祖节</item>
+        <item>腊八节</item>
+        <item>小年</item>
+        <item>除夕</item>
+    </string-array>
+    <string-array name="solarTerm">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+    <string-array name="chineseDigital">
+        <item>〇</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+    <string-array name="chinesePrefix">
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>正</item>
+        <item>冬</item>
+        <item>腊</item>
+        <item>闰</item>
+    </string-array>
+    <string-array name="chineseTime">
+        <item>年</item>
+        <item>月</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="chinese_gan">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="chinese_zhi">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+
+    <string name="about">Pure Lunar Calendar\n\nauth: mostone@hotmail.com\nsite:blog.csdn.net/mostone/</string>
+
+</resources>

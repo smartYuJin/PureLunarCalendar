@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableViewCalendar"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1,2,3,4,5,6,7" >
+
+    <!-- 
+    	这里会有一个警告，提示 TableRow 不必要，因为只有一行内容。但是，日历的其它行是动态添加的，
+    		所以这里必须保留，这样 TableHeader 和 TableBody 的列才能对齐。
+     -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/style_calendar_header_container"
+            android:background="@drawable/shape_calendar_cell_weekindex" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:layout_width="38dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_calendar_header_container"
+            android:background="@drawable/shape_calendar_cell_weekend" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_sunday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_header_container" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_monday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_header_container" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_tuesday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_header_container" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_wednsday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_header_container" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_thursday" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_header_container" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_firday" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/style_calendar_header_container"
+            android:background="@drawable/shape_calendar_cell_weekend" >
+
+            <TextView
+                style="@style/style_calendar_header_text"
+                android:text="@string/calendar_saturday" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

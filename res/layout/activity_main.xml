@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_main_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout style="@style/style_calendar_titlebar" >
+
+        <LinearLayout style="@style/style_calendar_title_gregorian_container" >
+
+            <ImageView
+                android:id="@+id/imgPreviousMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/desc_previous_month"
+                android:onClick="onMenuImageClick"
+                android:src="@drawable/img_arrow_left" />
+
+            <TextView
+                android:id="@+id/txtTitleGregorian"
+                style="@style/style_calendar_title_gregorian_text"
+                android:text="@string/demo" />
+
+            <ImageView
+                android:id="@+id/imgNextMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/desc_next_month"
+                android:onClick="onMenuImageClick"
+                android:src="@drawable/img_arrow_right" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_title_detail_container" >
+
+            <TextView
+                android:id="@+id/txtTitleLunar"
+                style="@style/style_calendar_title_lunar_text"
+                android:text="@string/demo" />
+
+            <TextView
+                android:id="@+id/txtTitleAddition"
+                style="@style/style_calendar_title_addition_text"
+                android:text="@string/demo" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/style_calendar_title_command_container" >
+
+            <ImageView
+                android:id="@+id/imgToday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:contentDescription="@string/desc_today"
+                android:onClick="onMenuImageClick"
+                android:src="@drawable/img_today" />
+
+            <ImageView
+                android:id="@+id/imgPopupMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/desc_popup_menu"
+                android:onClick="onMenuImageClick"
+                android:src="@drawable/img_option_menu" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

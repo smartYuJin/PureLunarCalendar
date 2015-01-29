@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_calendar_border">#3fff</color>
+    <color name="color_calendar_title_gregorian">#cfff</color>
+    <color name="color_calendar_title_lunar">#cfff</color>
+    <color name="color_calendar_title_start">#c000</color>
+    <color name="color_calendar_title_end">#6000</color>
+    <color name="color_calendar_title_addition">#f63</color>
+    <color name="color_calendar_weekindex">#3fff</color>
+    <color name="color_calendar_weekindex_background">#369f</color>
+    <color name="color_calendar_weekend">#9fff</color>
+    <color name="color_calendar_weekend_background">#3f99</color>
+    <color name="color_calendar_header">#9fff</color>
+    <color name="color_calendar_header_background">#6000</color>
+    <color name="color_calendar_outrange">#3fff</color>
+    <color name="color_calendar_outrange_background">#3fff</color>
+    <color name="color_calendar_normal_gregorian">#cfff</color>
+    <color name="color_calendar_normal_lunar">#9fff</color>
+    <color name="color_calendar_normal_background">#0000</color>
+    <color name="color_calendar_today_gregorian">#cfff</color>
+    <color name="color_calendar_today_lunar">#9fff</color>
+    <color name="color_calendar_today_background">#06c</color>
+    <color name="color_calendar_solarterm">#c0c3</color>
+    <color name="color_calendar_festival">#cf90</color>
+    <color name="color_calendar_pressed">#306c</color>
+    <color name="color_calendar_focused">#606c</color>
+</resources>

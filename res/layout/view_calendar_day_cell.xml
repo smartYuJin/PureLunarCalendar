@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_calendar_cell.normal" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtCellGregorian"
+            style="@style/style_calendar_gregorian.normal"
+            android:text="@string/demo" />
+
+        <ImageView
+            android:id="@+id/imgCellHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:contentDescription="@string/desc_cell_hint" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txtCellLunar"
+        style="@style/style_calendar_lunar.normal"
+        android:text="@string/demo" />
+
+</LinearLayout>
